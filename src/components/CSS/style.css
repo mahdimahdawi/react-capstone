@@ -2,13 +2,29 @@
   text-align: center;
   padding: 10px;
   margin: 20px;
-  border: 1px solid gray;
+  border: 1px solid rgb(116, 79, 79);
   border-radius: 8px;
   width: 90%;
   background-color: rgb(80, 85, 82);
   margin-left: 70px;
   box-shadow: 1px 1px 15px 1px;
   color: white;
+  background-image: url('../../images/covid-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.country-info > * {
+  padding: 10px;
+}
+
+.count-info> * {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.country-card {
+  background-image: url('../../images/covid-1.jpg');
 }
 
 .back-btn {
@@ -91,4 +107,21 @@ body {
   100% {
     transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
   }
+}
+
+@media (max-width: 768px) {
+  .country-info {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 80%;
+    background-color: rgb(80, 85, 82);
+    margin-left: 28px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 15px 1px;
+    color: white;
+  }
+
 }

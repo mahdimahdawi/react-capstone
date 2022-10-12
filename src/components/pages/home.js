@@ -4,7 +4,7 @@ import CaseComponent from "../caseComponent";
 
 const HomePage = () => {
   const { all } = useSelector((state) => state.cases);
-  const [state, setState] = useState({
+  const [state] = useState({
     value: "",
     filteredCases: [],
   });
@@ -29,5 +29,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-

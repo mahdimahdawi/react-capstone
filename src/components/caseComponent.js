@@ -2,9 +2,10 @@ import Case from "./case";
 
 const CaseComponent = (props) => {
   const num = props;
-  const { cases, value } = num;
+  const { cases } = num;
   return (
-    <div>
+    <div className="list-page">
+      <h1 className="page-heading">COVID-19 CASES</h1>
       <ul className="card">
         {
           cases.map((c, i) => {

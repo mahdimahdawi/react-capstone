@@ -37,7 +37,7 @@ const CountryInformation = () => {
           <h2>
             {All.country} <span>({All.abbreviation})</span>
           </h2>
-          <div>
+          <div className="count-info">
             <p>
               <MdLocationOn /> Continent: <span>{All.continent}</span>
             </p>

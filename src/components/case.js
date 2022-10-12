@@ -33,7 +33,7 @@ const Case = (props) => {
           progress={life_expectancy}
           strokeWidth={10}
           strokeColor="#379cf6"
-          trackStrokeColor="white"
+          trackStrokeColor="gray"
           strokeLinecap="round"
           trackStrokeWidth={10}
           className="progress-bar"

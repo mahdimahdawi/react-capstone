@@ -1,9 +1,9 @@
-import { useDispatch } from "react-redux";
-import { Link } from "react-router-dom";
-import { countryInfo } from "../redux/cases";
+/* eslint-disable */
+import { useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { countryInfo } from '../redux/cases';
 import ProgressBar from 'react-customizable-progressbar';
-
-import { MdOutlineReadMore } from "react-icons/md";
+import { MdOutlineReadMore } from 'react-icons/md';
 
 const Case = (props) => {
   const prop = props;

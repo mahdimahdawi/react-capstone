@@ -1,11 +1,11 @@
-import { useSelector } from "react-redux";
-import { useState } from "react";
-import CaseComponent from "../caseComponent";
+import { useSelector } from 'react-redux';
+import { useState } from 'react';
+import CaseComponent from '../caseComponent';
 
 const HomePage = () => {
   const { all } = useSelector((state) => state.cases);
   const [state] = useState({
-    value: "",
+    value: '',
     filteredCases: [],
   });
   return (
@@ -25,7 +25,6 @@ const HomePage = () => {
       }
     </>
   );
-
 };
 
 export default HomePage;

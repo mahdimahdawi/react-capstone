@@ -1,17 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
-import { MdLocationOn, MdCloseFullscreen } from "react-icons/md";
-import { GiModernCity, GiHumanTarget, GiDeathSkull } from "react-icons/gi";
-import { FaSearchLocation, FaChartArea } from "react-icons/fa";
-import { FcPositiveDynamic } from "react-icons/fc";
-import { GrUpdate } from "react-icons/gr";
-import { Link } from "react-router-dom";
-import { BiArrowBack } from "react-icons/bi";
-import { SiSogou } from "react-icons/si";
-import { RiDeviceRecoverLine } from "react-icons/ri";
-import { TbWorldLongitude } from "react-icons/tb";
+/* eslint-disable */
+import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
+import { MdLocationOn, MdCloseFullscreen } from 'react-icons/md';
+import { GiModernCity, GiHumanTarget, GiDeathSkull } from 'react-icons/gi';
+import { FaSearchLocation, FaChartArea } from 'react-icons/fa';
+import { FcPositiveDynamic } from 'react-icons/fc';
+import { GrUpdate } from 'react-icons/gr';
+import { Link } from 'react-router-dom';
+import { BiArrowBack } from 'react-icons/bi';
+import { SiSogou } from 'react-icons/si';
+import { RiDeviceRecoverLine } from 'react-icons/ri';
+import { TbWorldLongitude } from 'react-icons/tb';
 
-import "./CSS/style.css";
+import './CSS/style.css';
 
 const CountryInformation = () => {
   const [statePending, updateState] = useState(false);
@@ -29,10 +30,13 @@ const CountryInformation = () => {
     <>
       {statePending ? (
         <div className="country-info">
-          <Link className="back-btn" to="/">{<BiArrowBack />}</Link>
+          <Link className="back-btn" to="/">
+            {<BiArrowBack />}
+          </Link>
           <h1>Country Information</h1>
           <p>
-            <GrUpdate className="back-btn" /> Last updated: <span>{All.updated}</span>
+            <GrUpdate className="back-btn" /> Last updated:{" "}
+            <span>{All.updated}</span>
           </p>
           <h2>
             {All.country} <span>({All.abbreviation})</span>

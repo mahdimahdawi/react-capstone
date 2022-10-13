@@ -1,4 +1,4 @@
-import Case from "./case";
+import Case from './case';
 
 const CaseComponent = (props) => {
   const num = props;
@@ -19,4 +19,3 @@ const CaseComponent = (props) => {
 };
 
 export default CaseComponent;
-

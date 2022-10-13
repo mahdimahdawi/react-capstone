@@ -8,7 +8,7 @@ const CaseComponent = (props) => {
       <h1 className="page-heading">COVID-19 CASES</h1>
       <ul className="card">
         {
-          cases.map((c, i) => {
+          cases.map((c) => {
             const { id } = c;
             return <Case key={`key-${id}`} country={c} id={id} />;
           })

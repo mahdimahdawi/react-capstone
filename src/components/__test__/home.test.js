@@ -7,7 +7,7 @@ test('Render <HomePage /> component', () => {
   const comp = renderer.create(
     <Provider store={store}>
       <HomePage />
-    </Provider>
+    </Provider>,
   ).toJSON();
   expect(comp).toMatchSnapshot();
-})
+});

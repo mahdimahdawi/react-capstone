@@ -6,7 +6,7 @@ import store from '../../redux/cinfigureStore';
 test('Render <CaseComponet /> component', () => {
   const comp = renderer.create(
     <Provider store={store}>
-      <CaseComponent cases={[] } value={[] }/>
+      <CaseComponent cases={[]} value={[]} />
     </Provider>,
   ).toJSON();
   expect(comp).toMatchSnapshot();

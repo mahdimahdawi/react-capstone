@@ -15,8 +15,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage /> }/>
-          <Route path="/country/:countryName" element={<DetailPage /> }/>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/country/:countryName" element={<DetailPage />} />
         </Routes>
       </Router>
     </>

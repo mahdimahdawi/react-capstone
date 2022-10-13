@@ -1,5 +1,5 @@
 import { BiSearch } from 'react-icons/bi';
-import './CSS/style.css'
+import './CSS/style.css';
 
 const Search = (props) => {
   const args = props;
@@ -7,17 +7,16 @@ const Search = (props) => {
 
   return (
     <div>
-      <input 
-      className='search-bar'
-      value={value}
-      name="Search"
-      id="searchbar"
-      onChange={handleChange}
-      placeholder="Search By Country Name ..."
+      <input
+        className="search-bar"
+        value={value}
+        name="Search"
+        id="searchbar"
+        onChange={handleChange}
+        placeholder="Search By Country Name ..."
       />
-      <BiSearch className='search-icon' />
+      <BiSearch className="search-icon" />
     </div>
   );
 };
-
 export default Search;

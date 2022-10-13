@@ -11,6 +11,7 @@
 - React js, JavaScript, JSX, CSS
 
 ## [Online Link](https://singular-gumdrop-8c2943.netlify.app/)
+## [live Demo](https://drive.google.com/file/d/16EcAZWfSbZOEAP0ParYK9eHv8dzr-6zy/view?usp=sharing)
 
 ## Getting Started
 
@@ -59,7 +60,7 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
-
+Cridit: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 This project is [MIT](https://github.com/mahdimahdawi/react-capstone/blob/master/MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

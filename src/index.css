@@ -69,25 +69,31 @@ li {
 }
 
 @media (max-width: 768px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+  }
+
   .more-btn {
     background: rgb(245, 243, 243);
     border: 3px solid rgb(255, 253, 253);
-    margin-left: 250px;
+    margin-left: 85px;
     border-end-end-radius: 10px;
     box-shadow: 1px 1px 1px 1px;
   }
 
   .progress-bar {
     display: flex;
-    margin-left: 100px;
+    margin-left: 15px;
   }
 
   .country-card {
     flex: 1 1 auto;
-    width: 100%;
+    width: 40%;
     border: 1px solid gray;
-    margin: 15px;
-    margin-left: 50px;
     background-color: rgb(72, 75, 74);
     box-shadow: 2px 1px 7px 2px;
     text-align: center;

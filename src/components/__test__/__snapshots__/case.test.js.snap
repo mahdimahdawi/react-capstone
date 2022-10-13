@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render <Case /> Components 1`] = `
+<li
+  className="country-card"
+>
+  <a
+    href="/country/undefined"
+    onClick={[Function]}
+  >
+    <button
+      className="more-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        className="more-info"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M13 7h9v2h-9zM13 15h9v2h-9zM16 11h6v2h-6zM13 12L8 7v4H2v2h6v4z"
+        />
+      </svg>
+    </button>
+  </a>
+  <div>
+    <div
+      className="m-top"
+    >
+      <p
+        className="m-top"
+      />
+      <span
+        className="m-top"
+      />
+    </div>
+    <p>
+      Life Expectancy: 
+       
+       
+    </p>
+    <div
+      className="RCP progress-bar"
+      style={
+        Object {
+          "position": "relative",
+          "width": "100px",
+        }
+      }
+    >
+      <svg
+        height={100}
+        style={
+          Object {
+            "transform": "rotate(-90deg)",
+          }
+        }
+        viewBox="0 0 100 100"
+        width={100}
+      >
+        <circle
+          className="RCP__track"
+          cx={50}
+          cy={50}
+          fill="none"
+          r={30}
+          stroke="gray"
+          strokeDasharray="188.49555921538757, 188.49555921538757"
+          strokeLinecap="round"
+          strokeWidth={10}
+          style={
+            Object {
+              "transition": ".3s ease",
+            }
+          }
+        />
+        <circle
+          className="RCP__progress"
+          cx={50}
+          cy={50}
+          fill="none"
+          r={30}
+          stroke="#379cf6"
+          strokeDasharray="188.49555921538757, 188.49555921538757"
+          strokeDashoffset={188.49555921538757}
+          strokeLinecap="round"
+          strokeWidth={10}
+          style={
+            Object {
+              "transition": ".3s ease",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</li>
+`;

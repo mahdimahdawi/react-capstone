@@ -43,13 +43,6 @@ export const countryInfo = createAsyncThunk(
   },
 );
 
-export const searchImplementation = (arr, str) => {
-  const len = str.length;
-
-  const cases = arr.filter((country) => (country.id.slice(0, len) === str));
-  return cases;
-};
-
 const Reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_CASES: return {

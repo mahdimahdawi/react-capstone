@@ -10,7 +10,7 @@ const CaseComponent = (props) => {
         {
           cases.map((c, i) => {
             const { id } = c;
-            return <Case key={`key-${id}`} country={c} id={id} i={i + 1} />;
+            return <Case key={`key-${id}`} country={c} id={id} />;
           })
         }
       </ul>

@@ -1,20 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# React Capstone Project
 
 > Description the project.
+- This is the simple project that users see list of all Countries by clicking on more info button able to see the more detail and information about the Covid-19 cases in the selected Contry.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React js, JavaScript, JSX, CSS
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+## [Online Link](https://singular-gumdrop-8c2943.netlify.app/)
+## [live Demo](https://drive.google.com/file/d/16EcAZWfSbZOEAP0ParYK9eHv8dzr-6zy/view?usp=sharing)
 
 ## Getting Started
 
@@ -25,38 +22,32 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- To run this project on you local environment you need a pc.
 
 ### Setup
+- To Clone this project simpily Use the repository like for the code section.
 
 ### Install
-
-### Usage
+- To Install this project on your local enviroment you just need to have install `npm` on your local machine.
 
 ### Run tests
-
-### Deployment
-
+- To run this project go to you terminal and run `npm start`.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Mahdi Mahdawi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mahdimahdawi](https://github.com/mahdimahdawi/react-capstone)
+- Twitter: [@Mahdimahdawo](https://mobile.twitter.com/mahdimahdawi16)
+- LinkedIn: [Mahdi Mahdawi](https://www.linkedin.com/in/mahdi-mahdawi-434296189)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mahdimahdawi/react-capstone/issues).
 
 ## Show your support
 
@@ -69,7 +60,7 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
+Cridit: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+This project is [MIT](https://github.com/mahdimahdawi/react-capstone/blob/master/MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
